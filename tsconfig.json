@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // Output & layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Target modern Node
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "types": ["node"],
+
+    // QoL
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+
+    // Interop / modules
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "declaration": false,
+  "declarationMap": false
+
+}
