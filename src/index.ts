@@ -15,7 +15,7 @@ const citations = load("ellison.citations.md");
 const tags = load("ellison-tags.md");
 const excerpts = load("ellison-excepts.md");
 
-export async function askEllison(userMessage: string) {
+export async function askTheEllisonScholar(userMessage: string) {
   const response = await client.responses.create({
     model: "gpt-5-nano",
     input: [
