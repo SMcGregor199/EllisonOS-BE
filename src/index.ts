@@ -50,3 +50,4 @@ export async function askTheEllisonScholar(userMessage: string) {
 }
 
 
+askTheEllisonScholar("What does Ellison mean by invisibility?").then((response) => console.log(response));
